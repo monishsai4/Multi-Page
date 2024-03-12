@@ -1,0 +1,124 @@
+/* Including the fonts whcih are used in page */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* universal style  */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+/* Nav bar  */
+.backgroundheader {
+  background-color: #26536b;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+.navinline {
+  display: flex;
+}
+.logoname {
+  color: #ffffff;
+}
+.navtext {
+  padding-left: 250px;
+  margin-top: 11px;
+}
+.nav_menu {
+  display: inline;
+  padding: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* login button  */
+.loginbutton {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-color: #ffffff;
+  /* border-radius: 2px;
+  border-color: white; */
+  padding-left: 23px;
+  padding-right: 23px;
+  background-color: #26536b;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.loginbutton:hover {
+  background-color: #ffffff;
+  color: #26536b;
+}
+.btn-text-center {
+  text-align: center;
+}
+/* contact us button */
+.contactus {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-color: #ffffff;
+  padding-left: 23px;
+  padding-right: 23px;
+  background-image: linear-gradient(to right, #a5ea13, #2cadc6);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.aligningbutton {
+  margin-left: 10%;
+}
+.aligningcontact {
+  padding-left: 10px;
+}
+/* hero page */
+.heroalign {
+  background-color: #0b3747;
+  /* height: 400px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
+#herotext {
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+#heronext {
+  font-size: 20px;
+  color: white;
+
+  font-weight: 300;
+}
+.Apibutton {
+  color: #26536b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-color: #ffffff;
+  /* border-radius: 2px;
+  border-color: white; */
+  padding-left: 23px;
+  padding-right: 23px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.hero2 {
+  background-color: EDF8FC;
+}
