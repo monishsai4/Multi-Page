@@ -1,6 +1,4 @@
 /* Including the fonts whcih are used in page */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /* universal style  */
 * {
@@ -17,26 +15,43 @@
   background-color: #26536b;
   padding-left: 30px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 13px;
   padding-right: 30px;
+}
+.backgroundheaderindex {
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 13px;
+  padding-right: 30px;
+  box-shadow: 3px 3px 12px #cccbc8;
+}
+.givecol {
+  color: #6a859b;
 }
 .navinline {
   display: flex;
 }
 .logoname {
-  color: #ffffff;
+  color: #333333;
+  padding-top: 2px;
 }
 .navtext {
   padding-left: 250px;
   margin-top: 11px;
+  display: flex;
 }
 .nav_menu {
   display: inline;
-  padding: 25px;
+  padding-left: 25px;
+  padding-top: px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  color: white;
 }
 
 a {
-  color: white;
+  color: #26536b;
   text-decoration: none;
   font-size: 15px;
 }
@@ -45,18 +60,28 @@ a:hover {
 }
 /* login button  */
 .loginbutton {
-  color: white;
+  color: #26536b;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 15px;
-  border-color: #ffffff;
-  /* border-radius: 2px;
-  border-color: white; */
+  border-color: bl;
   padding-left: 23px;
   padding-right: 23px;
-  background-color: #26536b;
+  background-color: #ffffff;
   cursor: pointer;
   border-radius: 5px;
+}
+.loginbutton1 {
+  color: #26536b;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  border-color: bl;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 25px;
 }
 .loginbutton:hover {
   background-color: #ffffff;
@@ -78,8 +103,32 @@ a:hover {
   cursor: pointer;
   border-radius: 5px;
 }
+.contactus1 {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-color: #ffffff;
+  padding-left: 23px;
+  padding-right: 23px;
+  background-color: #0b3747;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contactus2 {
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  border-color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #0b3747;
+  cursor: pointer;
+  border-radius: 25px;
+}
 .aligningbutton {
-  margin-left: 10%;
+  margin-left: 15%;
 }
 .aligningcontact {
   padding-left: 10px;
@@ -93,10 +142,117 @@ a:hover {
   justify-content: space-evenly;
   padding-top: 100px;
 }
+.mm {
+  margin-left: 80px;
+  background-color: white;
+  display: flex;
+}
+.ff {
+  font-size: 60px;
+  font-weight: 520;
+}
+.lo {
+  height: 1100px;
+  background-image: linear-gradient(#051b23, #527f7f);
+  margin-top: 110px;
+}
+.lo1 {
+  height: 1100px;
+  background-image: white;
+}
+.yy {
+  font-weight: 450;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.yy1 {
+  font-weight: 420;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.yy3 {
+  font-weight: 420;
+  font-size: 40px;
+  text-align: center;
+  color: 051b23;
+}
+.yy2 {
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+.op {
+  margin-top: 30px;
+  padding-top: 110px;
+  height: 50px;
+}
+.op1 {
+  padding-top: 22px;
+  height: 50px;
+}
+.op2 {
+  margin-top: 22px;
+}
+.op3 {
+  padding-top: 100px;
+  height: 50px;
+}
+.contactus3 {
+  color: #051b23;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  border-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.ss {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+  color: grey;
+}
+
+.ee {
+  display: flex;
+  margin-top: 30px;
+}
+.rr {
+  display: flex;
+  margin-top: 40px;
+}
+#tt {
+  margin-left: 15px;
+}
+.ll {
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: grey;
+}
+
+.heroalign1 {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-right: 200px;
+}
 
 #herotext {
   font-size: 40px;
   color: white;
+  font-weight: 500;
+}
+#herotext1 {
+  font-size: 40px;
+  color: black;
   font-weight: 500;
 }
 #heronext {
@@ -121,4 +277,38 @@ a:hover {
 }
 .hero2 {
   background-color: EDF8FC;
+}
+.qw {
+  height: 300px;
+  width: 450px;
+  margin-left: 280px;
+  background-color: #f2f3f4;
+  border-radius: 10px;
+}
+.qw1 {
+  height: 300px;
+  width: 450px;
+  margin-left: 40px;
+  background-color: #f2f3f4;
+  border-radius: 10px;
+}
+.yt {
+  margin-left: 20px;
+  padding-top: 30px;
+  font-weight: 400;
+  font-size: 25px;
+}
+.ds {
+  padding-left: 30px;
+  list-style-type: none;
+}
+.ss1 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+  color: grey;
+}
+.mn {
+  margin-top: 50px;
+  display: flex;
 }
