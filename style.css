@@ -4,7 +4,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .container {
   width: 95%;
@@ -22,7 +22,7 @@
   background-color: #ffffff;
   padding-left: 30px;
   padding-top: 20px;
-  padding-bottom: 13px;
+  padding-bottom: 9px;
   padding-right: 30px;
   box-shadow: 3px 3px 12px #cccbc8;
 }
@@ -34,19 +34,27 @@
 }
 .logoname {
   color: #333333;
-  padding-top: 2px;
+  padding-top: 1px;
 }
 .navtext {
   padding-left: 250px;
   margin-top: 11px;
   display: flex;
 }
+.navtext1 {
+  padding-left: 150px;
+  display: flex;
+}
 .nav_menu {
   display: inline;
-  padding-left: 25px;
-  padding-top: px;
-  padding-bottom: 25px;
-  padding-right: 25px;
+  padding: 0px 25px 25px 25px;
+  font-weight: 400;
+  color: white;
+}
+.nav_menu1 {
+  display: inline;
+  padding: 0px 25px 25px 25px;
+  font-weight: 500;
   color: white;
 }
 
@@ -56,17 +64,18 @@ a {
   font-size: 15px;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: grey;
 }
 /* login button  */
 .loginbutton {
   color: #26536b;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-size: 15px;
   border-color: bl;
-  padding-left: 23px;
-  padding-right: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #ffffff;
   cursor: pointer;
   border-radius: 5px;
@@ -127,11 +136,20 @@ a:hover {
   cursor: pointer;
   border-radius: 25px;
 }
+.contactus3 {
+  color: #0b3747;
+  padding: 12px 25px 12px 5px;
+  font-size: 15px;
+  border-color: #ffffff;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 25px;
+}
 .aligningbutton {
-  margin-left: 15%;
+  margin-left: 20%;
 }
 .aligningcontact {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 /* hero page */
 .heroalign {
@@ -148,8 +166,8 @@ a:hover {
   display: flex;
 }
 .ff {
-  font-size: 60px;
-  font-weight: 520;
+  font-size: 70px;
+  font-weight: 600;
 }
 .lo {
   height: 1100px;
@@ -157,7 +175,11 @@ a:hover {
   margin-top: 110px;
 }
 .lo1 {
-  height: 1100px;
+  height: 1200px;
+  background-image: white;
+}
+.lo2 {
+  height: 1200px;
   background-image: white;
 }
 .yy {
@@ -183,9 +205,15 @@ a:hover {
   text-align: center;
   color: white;
 }
+.yp2 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #051b23;
+}
 .op {
-  margin-top: 30px;
-  padding-top: 110px;
+  margin-top: 10px;
+  padding-top: 90px;
   height: 50px;
 }
 .op1 {
@@ -193,22 +221,22 @@ a:hover {
   height: 50px;
 }
 .op2 {
-  margin-top: 22px;
+  margin-top: 35px;
 }
 .op3 {
-  padding-top: 100px;
+  padding-top: 80px;
   height: 50px;
 }
 .contactus3 {
   color: #051b23;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   font-size: 15px;
   border-color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 28px;
+  padding-right: 28px;
   background-color: white;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   border-radius: 25px;
 }
@@ -230,6 +258,7 @@ a:hover {
 #tt {
   margin-left: 15px;
 }
+
 .ll {
   font-weight: 300;
   font-size: 18px;
@@ -292,6 +321,13 @@ a:hover {
   background-color: #f2f3f4;
   border-radius: 10px;
 }
+.qw3 {
+  height: 400px;
+  width: 350px;
+  margin-left: 28px;
+  background-color: #f2f3f4;
+  border-radius: 15px;
+}
 .yt {
   margin-left: 20px;
   padding-top: 30px;
@@ -311,4 +347,32 @@ a:hover {
 .mn {
   margin-top: 50px;
   display: flex;
+}
+.mn1 {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 180px;
+}
+
+.lo2 {
+  height: 700px;
+  background-image: linear-gradient(#051b23, #527f7f);
+}
+.klm {
+  display: flex;
+  padding: 90px 0px 0px 0px;
+  margin-left: 120px;
+}
+.pdme {
+  padding-top: 90px;
+}
+.jjh {
+  font-size: 45px;
+  font-weight: 600;
+}
+.gradient-text {
+  background-image: linear-gradient(to right, #b8f0e3, #7275ef);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
