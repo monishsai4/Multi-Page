@@ -42,7 +42,7 @@
   display: flex;
 }
 .navtext1 {
-  padding-left: 150px;
+  padding-left: 98px;
   display: flex;
 }
 .nav_menu {
@@ -53,8 +53,9 @@
 }
 .nav_menu1 {
   display: inline;
-  padding: 0px 25px 25px 25px;
+  padding: 0px 25px 0px 25px;
   font-weight: 500;
+  font-size: 18px;
   color: white;
 }
 
@@ -328,6 +329,14 @@ a:hover {
   background-color: #f2f3f4;
   border-radius: 15px;
 }
+.qw4 {
+  height: 450px;
+  width: 750px;
+  margin-left: 120px;
+  margin-top: 45px;
+  background-color: #f2f3f4;
+  border-radius: 15px;
+}
 .yt {
   margin-left: 20px;
   padding-top: 30px;
@@ -364,7 +373,7 @@ a:hover {
   margin-left: 120px;
 }
 .pdme {
-  padding-top: 90px;
+  padding-top: 140px;
 }
 .jjh {
   font-size: 45px;
@@ -375,4 +384,22 @@ a:hover {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.lo1 {
+  height: 1200px;
+  background-image: white;
+}
+.yty {
+  text-align: center;
+  color: #718096;
+  margin-top: 100px;
+}
+.trt {
+  font-weight: 600;
+}
+.tyu {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 150px 110px 150px;
+  padding: 0px 15px 0px 15px;
 }
