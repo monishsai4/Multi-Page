@@ -308,6 +308,25 @@ a:hover {
 .hero2 {
   background-color: EDF8FC;
 }
+.imgb {
+  width: 300px;
+  height: 135px;
+  border-radius: 12px 12px 0px 0px;
+  margin-left: 70px;
+}
+.imgc {
+  width: 390px;
+  height: 135px;
+  border-radius: 12px 12px 0px 0px;
+  margin-left: 60px;
+}
+.shadow-left-right {
+  box-shadow: 50px 0px 50px #c9fbdd, -50px 0px 50px #c9fbdd;
+}
+.shadow-left {
+  box-shadow: -50px 0px 50px #c9fbdd;
+}
+
 .qw {
   height: 300px;
   width: 450px;
@@ -385,14 +404,14 @@ a:hover {
   background-clip: text;
   color: transparent;
 }
-.lo1 {
-  height: 1200px;
+.lo5 {
+  height: 500px;
   background-image: white;
 }
 .yty {
   text-align: center;
   color: #718096;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .trt {
   font-weight: 600;
@@ -400,6 +419,40 @@ a:hover {
 .tyu {
   display: flex;
   justify-content: space-between;
-  margin: 35px 150px 110px 150px;
+  margin: 35px 150px 100px 150px;
   padding: 0px 15px 0px 15px;
+}
+.ghg {
+  display: flex;
+  padding: 50px 100px 60px 200px;
+}
+.ghg1 {
+  display: flex;
+  padding: 10px 100px 10px 200px;
+  color: grey;
+}
+.logoname1 {
+  color: #333333;
+  padding-top: 1px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.hy {
+  padding: 10px 0px 0px 90px;
+}
+.hy1 {
+  padding: 10px 0px 0px 60px;
+}
+.hy2 {
+  padding: 10px 0px 0px 60px;
+}
+.hy3 {
+  padding: 10px 0px 0px 60px;
+}
+.ssd {
+  padding-top: 10px;
+  color: grey;
+}
+.dd {
+  padding-left: 30px;
 }
