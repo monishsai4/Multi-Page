@@ -13,17 +13,12 @@
 /* Nav bar  */
 .backgroundheader {
   background-color: #26536b;
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 13px;
-  padding-right: 30px;
+  padding: 20px 30px 9px 30px;
+  box-shadow: 3px 3px 12px #ffffff;
 }
 .backgroundheaderindex {
   background-color: #ffffff;
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 9px;
-  padding-right: 30px;
+  padding: 20px 30px 9px 30px;
   box-shadow: 3px 3px 12px #cccbc8;
 }
 .givecol {
@@ -34,6 +29,10 @@
 }
 .logoname {
   color: #333333;
+  padding-top: 1px;
+}
+.logoname1 {
+  color: #ffffff;
   padding-top: 1px;
 }
 .navtext {
@@ -59,12 +58,21 @@
   color: white;
 }
 
-a {
+a.yrt {
   color: #26536b;
   text-decoration: none;
   font-size: 15px;
 }
-a:hover {
+a.yrt:hover {
+  text-decoration: none;
+  color: grey;
+}
+a.yt1 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+a.yt1:hover {
   text-decoration: none;
   color: grey;
 }
@@ -431,12 +439,7 @@ a:hover {
   padding: 10px 100px 10px 200px;
   color: grey;
 }
-.logoname1 {
-  color: #333333;
-  padding-top: 1px;
-  font-size: 40px;
-  font-weight: 600;
-}
+
 .hy {
   padding: 10px 0px 0px 90px;
 }
