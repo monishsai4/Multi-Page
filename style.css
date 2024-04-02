@@ -12,7 +12,7 @@
 }
 /* Nav bar  */
 .backgroundheader {
-  background-color: #26536b;
+  background-color: #0b3747;
   padding: 20px 30px 9px 30px;
   box-shadow: 3px 3px 12px #ffffff;
 }
@@ -32,7 +32,11 @@
   padding-top: 1px;
 }
 .logoname1 {
-  color: #ffffff;
+  color: #333333;
+  padding-top: 1px;
+}
+.logoname2 {
+  color: white;
   padding-top: 1px;
 }
 .navtext {
@@ -78,25 +82,20 @@ a.yt1:hover {
 }
 /* login button  */
 .loginbutton {
-  color: #26536b;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  color: #ffffff;
+  padding: 12px 23px 12px 23px;
   font-size: 15px;
-  border-color: bl;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #ffffff;
+  font-weight: 600;
+  border-color: white;
+  background-color: #0b3747;
   cursor: pointer;
   border-radius: 5px;
 }
 .loginbutton1 {
   color: #26536b;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 25px 12px 25px;
   font-size: 15px;
-  border-color: bl;
-  padding-left: 25px;
-  padding-right: 25px;
+  border-color: black;
   background-color: #ffffff;
   cursor: pointer;
   border-radius: 25px;
@@ -111,12 +110,10 @@ a.yt1:hover {
 /* contact us button */
 .contactus {
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 12px 23px 12px 23px;
   font-size: 15px;
+  font-weight: 600;
   border-color: #ffffff;
-  padding-left: 23px;
-  padding-right: 23px;
   background-image: linear-gradient(to right, #a5ea13, #2cadc6);
   cursor: pointer;
   border-radius: 5px;
@@ -154,6 +151,12 @@ a.yt1:hover {
   cursor: pointer;
   border-radius: 25px;
 }
+.rer {
+  background-color: #0b3747;
+  background-image: url(IMG/herobg.svg);
+  background-size: 30px 10px;
+  background-position: top 20px right 30px;
+}
 .aligningbutton {
   margin-left: 20%;
 }
@@ -163,20 +166,33 @@ a.yt1:hover {
 /* hero page */
 .heroalign {
   background-color: #0b3747;
-  /* height: 400px; */
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 100px;
+  margin: 0px 200px 0px 180px;
+  padding: 100px 0px 0px 0px;
 }
 .mm {
   margin-left: 80px;
   background-color: white;
   display: flex;
 }
+.mm1 {
+  margin-left: 80px;
+  background-color: #0b3747;
+  display: flex;
+}
 .ff {
   font-size: 70px;
   font-weight: 600;
+}
+.ff1 {
+  font-size: 43px;
+  font-weight: 600;
+  color: white;
+}
+.ff2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 20px;
+  color: #b1ef00;
 }
 .lo {
   height: 1100px;
@@ -186,6 +202,35 @@ a.yt1:hover {
 .lo1 {
   height: 1200px;
   background-image: white;
+}
+.tyt {
+  height: 1100px;
+}
+.yte {
+  display: flex;
+
+  margin: 90px 10px 50px 220px;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(to right, #a5ea13, #2cadc6);
+  border-radius: 50%; /* This property makes the div round */
+  overflow: hidden;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.circle img {
+  width: 75%; /* This makes sure the image fills the entire circle */
+}
+.yuy {
+  color: #26536b;
+  font-size: 17px;
+  font-weight: 600;
+}
+.yiu {
+  margin-left: 40px;
 }
 .lo2 {
   height: 1200px;
@@ -278,9 +323,7 @@ a.yt1:hover {
 
 .heroalign1 {
   background-color: white;
-  margin-top: 100px;
-  margin-left: 180px;
-  margin-right: 200px;
+  margin: 100px 200px 0px 180px;
 }
 
 #herotext {
