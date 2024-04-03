@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+}
+.logoflog {
+  color: #333333;
+  font-size: 45px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logdiv {
+  margin: 100px 30px 1000px 30px;
+}
+.gradient-letter {
+  background: linear-gradient(
+    45deg,
+    #0b84ae,
+    #00a9de,
+    #b2f000,
+    #87b613 /* #ff7e5f,
+    #feb47b,
+    #ffdb70,
+    #ffec8b,
+    #fffdaf */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+.loginbox {
+  margin: 10px 420px 10px 420px;
+  background-color: white; /* Background color for the container */
+  border: 1px; /* Border style */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #d3d3d3;
+}
+.possign {
+  margin: 10px;
+  font-size: 20px;
+  color: #10526a;
+  padding: 10px 0px 10px 0px;
+}
+.rew {
+  display: flex;
+  border: 2px; /* Border style */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #d3d3d3;
+}
+.rew1 {
+  border: 2px solid #d3d3d3; /* Border style */
+  border-radius: 5px;
+
+  margin: 10px 55px 0px 55px;
+  padding: 12px;
+}
+.imgstyl {
+  margin: 13px 0px 10px 10px;
+}
+.givstyl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0b3747;
+  /* padding: 5px 20px 5px 20px; */
+  margin: 15px 150px 15px 150px;
+}
+.opi {
+  display: flex;
+  color: #d3d3d3;
+  margin: 15px;
+}
+.req {
+  margin-left: 55px;
+}
+.input-increased {
+  width: 450px;
+  height: 20px;
+  border: none;
+  color: #d3d3d3;
+}
+.yuop {
+  color: blue;
+  margin-left: 315px;
+}
