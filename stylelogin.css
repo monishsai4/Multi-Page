@@ -1,4 +1,4 @@
-/* this is written for both login and sign up  */
+/* this is written both login and sign up  */
 @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 * {
@@ -29,6 +29,9 @@
 .logdiv {
   margin: 50px 30px 90px 30px;
 }
+.logdiv1 {
+  margin: 50px 30px 150px 30px;
+}
 .gradient-letter {
   background: linear-gradient(
     45deg,
@@ -53,6 +56,13 @@
   border-radius: 5px;
   box-shadow: 0px 0px 5px #d3d3d3;
 }
+.loginbox1 {
+  margin: 30px 430px 0px 430px;
+  background-color: white; /* Background color for the container */
+  border: 1px; /* Border style */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #d3d3d3;
+}
 .possign {
   margin: 10px;
   font-size: 20px;
@@ -70,7 +80,13 @@
   border: 2px solid #d3d3d3; /* Border style */
   border-radius: 5px;
   margin: 10px 55px 0px 55px;
-  padding: 12px;
+  padding: 10px 10px 10px 10px;
+}
+.rew1-1 {
+  border: 2px solid #d3d3d3; /* Border style */
+  border-radius: 2px;
+  margin: 0px 0px 0px 50px;
+  padding: 5px 10px 5px 10px;
 }
 .rew2 {
   border: 2px solid #d3d3d3; /* Border style */
@@ -107,15 +123,32 @@
   color: #d3d3d3;
   margin: 25px;
 }
+.opi1 {
+  display: flex;
+  color: #d3d3d3;
+  margin: 15px;
+}
 .req {
   margin-left: 55px;
 }
+.req1 {
+  margin-left: 50px;
+  margin-top: 10px;
+}
 .input-increased {
   width: 450px;
-  height: 20px;
+  height: 25px;
   border: none;
   color: #d3d3d3;
 }
+/* this is for sign up html  */
+.input-increased-1 {
+  width: 200px;
+  height: 25px;
+  border: none;
+  color: #d3d3d3;
+}
+/* this is for sign up html  */
 .yuop {
   color: #20a5d5;
   margin-left: 280px;
@@ -124,7 +157,17 @@
   color: #20a5d5;
   text-decoration: none;
 }
+.iiou1 {
+  color: #20a5d5;
+  text-decoration: none;
+}
 .upadme {
   margin: 20px 0px 0px 0px;
-  padding-bottom: 38px;
+  padding-bottom: 5px;
+
+  font-size: 12px;
+}
+.upadme1 {
+  margin: 10px 0px 0px 0px;
+  padding-bottom: 30px;
 }
