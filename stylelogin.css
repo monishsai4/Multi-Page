@@ -33,17 +33,7 @@
   margin: 50px 30px 150px 30px;
 }
 .gradient-letter {
-  background: linear-gradient(
-    45deg,
-    #0b84ae,
-    #00a9de,
-    #b2f000,
-    #87b613 /* #ff7e5f,
-    #feb47b,
-    #ffdb70,
-    #ffec8b,
-    #fffdaf */
-  );
+  background: linear-gradient(45deg, #0b84ae, #00a9de, #b2f000, #87b613);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0px;

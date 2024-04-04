@@ -204,12 +204,13 @@ a.yt1:hover {
   background-image: white;
 }
 .tyt {
-  height: 1100px;
+  height: 220px;
 }
 .yte {
   display: flex;
+  justify-content: space-evenly;
 
-  margin: 90px 10px 50px 220px;
+  margin: 90px 100px 50px 120px;
 }
 .circle {
   width: 30px;
@@ -229,9 +230,7 @@ a.yt1:hover {
   font-size: 17px;
   font-weight: 600;
 }
-.yiu {
-  margin-left: 40px;
-}
+
 .lo2 {
   height: 1200px;
   background-image: white;
@@ -501,4 +500,45 @@ a.yt1:hover {
 }
 .dd {
   padding-left: 30px;
+}
+.bgcolorr {
+  background-color: #f1f5f9;
+}
+.alignhead {
+  display: flex;
+  justify-content: center;
+}
+.alignhead1 {
+  display: flex;
+  justify-content: center;
+}
+.align-text {
+  padding: 70px 0px 60px 0px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.ypoi {
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.img5 {
+  padding: 20px 90px;
+}
+.img6 {
+  padding: 50px 120px 10px 120px;
+}
+.try {
+  background-color: #0b3747;
+  color: white;
+  border-radius: 30px;
+  width: 55%;
+  height: 50px;
+  margin-bottom: 20px;
 }
