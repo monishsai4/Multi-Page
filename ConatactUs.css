@@ -1,0 +1,110 @@
+/* Including the fonts whcih are used in page */
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* universal style  */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+}
+.flexem {
+  display: flex;
+}
+.columnw {
+  flex-direction: column;
+}
+.space-em {
+  justify-content: space-evenly;
+}
+.aligning-uyu {
+  color: white;
+  margin: 0px 0px 50px 280px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  font-size: 27px;
+}
+.bg-yty {
+  background-color: #0b3747;
+  width: 100%;
+}
+.aligning-txt {
+  font-weight: 500;
+  margin-top: 0px;
+}
+.section-adjust {
+  background-color: white;
+}
+.divcontrol {
+  margin: 100px 0px 0px 360px;
+  font-size: 20px;
+}
+.img-border {
+  box-shadow: 1px 1px 2px grey;
+  margin-right: 17px;
+  border-radius: 7px;
+  padding: 5px;
+}
+.textgg {
+  font-size: 27px;
+  font-weight: 500;
+}
+.poio {
+  background-color: white;
+  box-shadow: 1px 2px 2px grey;
+  border-radius: 12px;
+  color: #0b3747;
+  width: 400px;
+  height: 850px;
+  margin-left: 150px;
+  padding: 25px;
+  margin-top: 50px;
+}
+.adjsutme {
+  font-size: 13px;
+}
+
+.input-increased-1 {
+  width: 160px;
+  height: 25px;
+  border: none;
+  color: #d3d3d3;
+  background-color: #f5f8fa;
+}
+.input-increased-2 {
+  width: 370px;
+  height: 70px;
+  border: none;
+  color: #d3d3d3;
+  background-color: #f5f8fa;
+}
+.input-increased-3 {
+  width: 370px;
+  height: 25px;
+  border: none;
+  color: #d3d3d3;
+  background-color: #f5f8fa;
+}
+.fdf {
+  border: 2px solid #d3d3d3; /* Border style */
+  background-color: #f5f8fa;
+  border-radius: 5px;
+  padding: 4px 10px 4px 10px;
+}
+.fdf1 {
+  border: 2px solid #d3d3d3; /* Border style */
+  background-color: #f5f8fa;
+  border-radius: 5px;
+  padding: 4px 10px 4px 10px;
+}
+.container787 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px; /* or any height you prefer */
+}
+.sttyle {
+  padding: 10px 25px;
+  border-radius: 8px;
+  background-color: #c0ed46;
+  box-shadow: 1px 2px 2px white;
+  border: none;
+}

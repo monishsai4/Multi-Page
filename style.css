@@ -82,11 +82,21 @@ a.yt1:hover {
 }
 /* login button  */
 .loginbutton {
+  color: #0b3747;
+  padding: 12px 23px 12px 23px;
+  font-size: 15px;
+  font-weight: 600;
+  border-color: #0b3747;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.loginbutton-1 {
   color: #ffffff;
   padding: 12px 23px 12px 23px;
   font-size: 15px;
   font-weight: 600;
-  border-color: white;
+  border-color: #ffffff;
   background-color: #0b3747;
   cursor: pointer;
   border-radius: 5px;
