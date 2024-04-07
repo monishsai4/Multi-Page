@@ -552,3 +552,20 @@ a.yt1:hover {
   height: 50px;
   margin-bottom: 20px;
 }
+.iuiii {
+  width: 100%;
+  height: 300px;
+  background-color: #0b3747;
+  color: white;
+}
+.lopp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+.uytre {
+  font-size: 29px;
+  font-weight: 600;
+}

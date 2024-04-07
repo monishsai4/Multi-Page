@@ -107,3 +107,26 @@
   margin-top: 75px;
   margin-left: 130px;
 }
+.loll {
+  width: 290px;
+  height: 380px;
+  box-shadow: 0px 0px 2px #d3d3d3;
+  border-radius: 10px;
+  margin: 100px 0px 70px 250px;
+}
+.paddd {
+  padding: 18px;
+}
+.ttt {
+  font-weight: 600;
+  font-size: 15px;
+  color: #266f8c;
+}
+.tot {
+  font-weight: 400;
+  font-size: 13px;
+  color: grey;
+}
+.ijjj {
+  border-radius: 10px 10px 0 0;
+}
